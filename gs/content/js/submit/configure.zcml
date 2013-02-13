@@ -4,8 +4,8 @@
   xmlns:five="http://namespaces.zope.org/five">
 
   <browser:resource
-    name="gs-content-js-disclosure-20130113.js"
-    file="browser/javascript/disclosure.js"
+    name="gs-content-js-submit-20130113.js"
+    file="browser/javascript/submit.js"
     permission="zope2.Public" />
 
 </configure>
