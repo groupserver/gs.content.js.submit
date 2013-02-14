@@ -52,6 +52,7 @@ The JavaScript will bind to the ``submit`` event for all forms, once the
 window has loaded.
 
 A minified version of the script is available, too::
+
   <script type="text/javascript" 
           src="/++resource++gs-content-js-submit-min-20130113.js" 
           defer="true"> </script>     
