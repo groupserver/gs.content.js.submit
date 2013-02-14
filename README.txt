@@ -15,10 +15,10 @@ Introduction
            a widget. Clicking once was interpreted as select.
 
 :New Problem: People are now confused between execute (two clicks) and
-              select (one click). Especially with buttons. So they click
-              twice on all buttons (same as they would for an icon). This
-              causes a form to be posted twice, causing the state change
-              (posting a message, for example) to occur twice.
+              select (one click). Especially with button widgets. So they
+              click twice on all buttons (same as they would for an
+              icon). This causes a form to be posted twice, causing the
+              state change (posting a message, for example) to occur twice.
 
 :Solution: Disable the ``<button>`` element if someone clicks on it.
 
@@ -29,11 +29,10 @@ Introduction
 
 Presented here is the workaround for all the above problems. When the user
 clicks on a button it is *hidden*. Because the button is hidden the second
-click (if one was made) never reaches its target. However, because the
-button is just hidden, the user cannot see it, but the formlib_ code *does*
-see it. In place of the hidden button, a new button is added. This new
-button is disabled, and contains the text ``Processing…``, which provides
-some feedback.
+click (if one was made) never reaches its target. However the formlib_ code
+*does* see the button widget. In place of the hidden button, a new button
+is added. This new button is disabled, and contains the text
+``Processing…``, which has the added advantage of providing feedback.
 
 Resource
 ========
