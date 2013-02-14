@@ -7,5 +7,9 @@
     name="gs-content-js-submit-20130113.js"
     file="browser/javascript/submit.js"
     permission="zope2.Public" />
+  <browser:resource
+    name="gs-content-js-submit-min-20130113.js"
+    file="browser/javascript/submit-min.js"
+    permission="zope2.Public" />
 
 </configure>
