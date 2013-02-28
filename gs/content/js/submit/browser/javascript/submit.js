@@ -34,6 +34,7 @@ var GSDisableSubmit = function () {
     return {
         init: function ( ) {        
             jQuery('form').submit(handle_submit);
+            jQuery('form input[type=submit]').button().addClass('btn');
         }
     };
 }(); // GSDisableSubmit
