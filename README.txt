@@ -1,3 +1,18 @@
+========================
+``gs.content.js.submit``
+========================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fixing the submit button on HTML forms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:Author: `Michael JasonSmith`_
+:Contact: Michael JasonSmith <mpj17@onlinegroups.net>
+:Date: 2013-03-18
+:Organization: `GroupServer.org`_
+:Copyright: This document is licensed under a
+  `Creative Commons Attribution-Share Alike 3.0 New Zealand License`_
+  by `OnlineGroups.Net`_.
+
 Introduction
 ============
 
@@ -64,6 +79,11 @@ Resources
 - Report bugs at https://redmine.iopen.net/projects/groupserver/
 
 .. _GroupServer: http://groupserver.org/
+.. _GroupServer.org: http://groupserver.org/
+.. _OnlineGroups.Net: https://onlinegroups.net
+.. _Michael JasonSmith: http://groupserver.org/p/mpj17
+.. _Creative Commons Attribution-Share Alike 3.0 New Zealand License:
+   http://creativecommons.org/licenses/by-sa/3.0/nz/
 .. _Zope: http://zope.org/
 .. _formlib: http://docs.zope.org/zope.formlib/
 .. _browser resource: http://docs.zope.org/zope.browserresource/

@@ -32,9 +32,16 @@ var GSDisableSubmit = function () {
     }
     // Public methods and properties
     return {
-        init: function ( ) {        
+        init: function ( ) {
+            var buttons = null;
             jQuery('form').submit(handle_submit);
-            jQuery('form input[type=submit]').button().addClass('btn');
+            buttons = jQuery('form input[type=submit]');
+            if ((buttons !== null) 
+                && (typeof buttons !== "undefined")
+                && (typeof buttons.button !== "undefined")) {
+                // Hello, Twitter Bootstrap
+                buttons.button().addClass('btn');
+            }
         }
     };
 }(); // GSDisableSubmit
