@@ -32,6 +32,7 @@ setup(name='gs.content.js.submit',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'zope.browserresource',
     ],
     entry_points="""
     # -*- Entry points: -*-
