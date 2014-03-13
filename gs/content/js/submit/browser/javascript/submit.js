@@ -1,3 +1,6 @@
+"use strict";
+// Disable the command button when submitting a form (debounce).
+//
 // Copyright © 2013, 2014 OnlineGroups.net and Contributors.
 // All Rights Reserved.
 //
