@@ -57,8 +57,7 @@ setup(
         'setuptools',
         'gs.content.js.jquery.base',
     ],
-    extras_require={
-        'zope': ['zope.browserresource', ],
+    extras_require={'zope': ['zope.browserresource', ], },
     entry_points="""
     # -*- Entry points: -*-
     """,
